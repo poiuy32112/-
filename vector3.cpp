@@ -137,7 +137,7 @@ public:
 	}
 };
 
-}
+}	// namespace mystl
 
 int main() {
 	mystl::vector v1(4);
