@@ -186,7 +186,7 @@ void vector::printVector() {
 	std::cout << '\n';
 }
 
-}
+} // namespace mystl
 
 int main() {
 	mystl::vector v1(4);
