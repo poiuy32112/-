@@ -22,6 +22,7 @@ private:
 	int m_size{ 0 };
 
 public:
+	//构造、析构函数
 	list() {
 		m_head = new Node();
 		m_head->m_next = m_head;
