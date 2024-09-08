@@ -46,6 +46,7 @@ public:
 		delete(m_elem);
 	}
 
+	//容量相关操作
 	int size() { return m_size; }
 	int& front() { return m_elem[0]; }
 	int& back() { return m_elem[m_size - 1]; }
