@@ -22,6 +22,7 @@ public:
 	//容器扩容
 	void extendCap();
 
+	//容量相关操作
 	int size() { return m_size; }
 	int capacity() { return m_cap; }
 	int& front() { return m_elem[0]; }
