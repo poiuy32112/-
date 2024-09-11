@@ -25,6 +25,8 @@ public:
 	//容量相关操作
 	int size() { return m_size; }
 	int capacity() { return m_cap; }
+
+	//访问容器相关操作
 	int& front() { return m_elem[0]; }
 	int& back() { return m_elem[m_size - 1]; }
 
