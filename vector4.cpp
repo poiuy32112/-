@@ -32,6 +32,7 @@ public:
 
 	int& operator[](int n) { return m_elem[n]; }
 
+	//修改容器相关操作
 	void push_back(const int& value);
 	void pop_back();
 	void insert(int pos, int value);
