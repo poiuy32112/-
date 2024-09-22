@@ -1,6 +1,7 @@
 #include<iostream>
 #include <queue>
 
+//结点类型定义
 struct BiNode {
   int val{ 0 };
   struct BiNode* left{ nullptr };
